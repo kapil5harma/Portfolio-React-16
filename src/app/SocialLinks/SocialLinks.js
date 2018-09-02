@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SocialIcons = (props) => {
+const SocialLinks = (props) => {
   
   return (
-    <div className="social-icons animate-icons">
+    <div className="Social Links">
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/kapil5harma/"><i className="fab fa-github"></i></a>
         <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/kapil5harma"><i className="fab fa-twitter"></i></a>
         <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/story/kapil5harma"><i className="fab fa-stack-overflow"></i></a>
@@ -13,4 +13,4 @@ const SocialIcons = (props) => {
   );
 };
 
-export default SocialIcons;
+export default SocialLinks;
