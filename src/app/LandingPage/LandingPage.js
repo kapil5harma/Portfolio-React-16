@@ -1,28 +1,23 @@
 import React from 'react';
+import { Container, Title } from '../styled-components';
+import SocialLinks from '../SocialLinks/SocialLinks';
 
-const LandingPage = (props) => {
-  
+const LandingPage = props => {
   return (
-    <div style={{ height: '100vh' }} className="landing-page">
-      
-      <main style={{ color: "#fff" }}>
-        
+    <Container className="container">
+      <main style={{ color: '#fff' }}>
         <div>
-          <div className="name">Kapil Sharma</div>
-          <div className="tagline">
-            Frontend Developer | JavaScript Enthusiast 
-          </div>
-          
+          <Title className="name" fontSize="2.5rem">
+            Kapil Sharma
+          </Title>
+          <Title className="tag-line" fontSize="2.5rem">
+            Frontend Developer | JavaScript Enthusiast
+          </Title>
+          <SocialLinks className="social-links" />
         </div>
       </main>
-      
-    </div>
+    </Container>
   );
 };
 
 export default LandingPage;
-
-
-
-// WEBPACK FOOTER //
-// ./src/pages/LandingPage/LandingPage.js
