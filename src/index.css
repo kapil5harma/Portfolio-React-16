@@ -1,6 +1,10 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
-  background: rgb(115,115,115);
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: rgb(115, 115, 115);
 }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito:400,700|Poppins:400,700');
