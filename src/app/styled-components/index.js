@@ -9,8 +9,6 @@ export const Nav = styled.div.attrs({})`
   display: flex;
   align-items: center;
   font-size: 1.2rem;
-  background: rgba(30, 30, 30, 0.4);
-  color: #eee;
 `;
 
 export const Menu = styled.div.attrs({})`
@@ -50,7 +48,6 @@ export const Links = styled.div.attrs({})`
   justify-content: space-evenly;
   a {
     text-decoration: none;
-    color: white;
     font-size: 4rem;
     padding: 0.5rem 0.75rem;
   }

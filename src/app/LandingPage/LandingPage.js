@@ -5,7 +5,7 @@ import SocialLinks from '../SocialLinks/SocialLinks';
 const LandingPage = props => {
   return (
     <Container className="container">
-      <main style={{ color: '#fff' }}>
+      <main>
         <div>
           <Title className="name" fontSize="2.5rem">
             Kapil Sharma
