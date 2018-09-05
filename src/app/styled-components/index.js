@@ -42,6 +42,24 @@ export const Title = styled.div.attrs({
   color: ${props => props.color};
 `;
 
+export const Content = styled.div.attrs({
+  className: 'Content',
+  size: props => props.fontSize || '1.125rem',
+  weight: props => props.fontWeight || 'normal',
+  family: props => props.fontFamily || 'Poppins',
+  lineheight: props => props.lineheight || '2rem',
+  color: props => props.color
+})`
+  font-family: ${props => props.family};
+  font-size: ${props => props.size};
+  font-weight: ${props => props.weight};
+  line-height: ${props => props.lineheight};
+  color: ${props => props.color};
+  p:first-of-type {
+    margin-top: 0;
+  }
+`;
+
 export const Links = styled.div.attrs({})`
   padding: 0.5rem 1.5rem;
   display: flex;
