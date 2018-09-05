@@ -6,15 +6,13 @@ const LandingPage = props => {
   return (
     <Container className="container">
       <main>
-        <div>
-          <Title className="name" fontSize="2.5rem">
-            Kapil Sharma
-          </Title>
-          <Title className="tag-line" fontSize="2.5rem">
-            Frontend Developer | JavaScript Enthusiast
-          </Title>
-          <SocialLinks className="social-links" />
-        </div>
+        <Title className="name" fontSize="2.5rem">
+          Kapil Sharma
+        </Title>
+        <Title className="tag-line" fontSize="2.5rem">
+          Frontend Developer | JavaScript Enthusiast
+        </Title>
+        <SocialLinks className="social-links" />
       </main>
     </Container>
   );
