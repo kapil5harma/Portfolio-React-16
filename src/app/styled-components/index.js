@@ -19,7 +19,8 @@ export const Menu = styled.div.attrs({})`
 
 export const Container = styled.div.attrs({})`
   box-sizing: border-box;
-  padding: 4rem 1rem 1rem 1rem;
+  /* padding: 4rem 1rem 4rem 1rem; */
+  padding: 0.5rem;
   height: 100vh;
   width: 100vw;
 
