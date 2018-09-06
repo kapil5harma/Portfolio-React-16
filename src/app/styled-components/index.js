@@ -84,3 +84,13 @@ export const Main = styled.main.attrs({
   align-items: ${props => props.alignitems};
   text-align: ${props => props.textalign};
 `;
+
+export const ClickMe = styled.span.attrs({
+  width: props => props.width,
+  bottom: props => props.bottom
+})`
+  width: ${props => props.width};
+  position: absolute;
+  bottom: ${props => props.bottom};
+  left: ${props => `calc(50% - ${props.width}/2)`};
+`;
