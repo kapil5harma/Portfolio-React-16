@@ -23,6 +23,7 @@ export const Container = styled.div.attrs({})`
   padding: 0.5rem;
   height: 100vh;
   width: 100vw;
+  width: calc(100vw - 15rem);
 
   display: flex;
   justify-content: center;
@@ -70,4 +71,15 @@ export const Links = styled.div.attrs({})`
     font-size: 4rem;
     padding: 0.5rem 0.75rem;
   }
+`;
+
+export const Main = styled.main.attrs({})`
+  box-sizing: border-box;
+  height: 100vh;
+  width: calc(100vw - 15rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
 `;
