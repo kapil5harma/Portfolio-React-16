@@ -71,12 +71,16 @@ export const Links = styled.div.attrs({})`
   }
 `;
 
-export const Main = styled.main.attrs({})`
+export const Main = styled.main.attrs({
+  textalign: props => props.textAlign,
+  alignitems: props => props.alignItems
+})`
   box-sizing: border-box;
   height: 100vh;
   width: calc(100vw - 15rem);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: justify;
+  align-items: ${props => props.alignitems};
+  text-align: ${props => props.textalign};
 `;
