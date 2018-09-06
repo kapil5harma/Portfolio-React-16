@@ -4,7 +4,7 @@ import { Container, Title, Content, Main } from '../styled-components';
 const About = () => {
   return (
     <Container className="container">
-      <Main className="main">
+      <Main className="main" textAlign="justify">
         <Title className="about" fontSize="2.5rem">
           About
         </Title>
