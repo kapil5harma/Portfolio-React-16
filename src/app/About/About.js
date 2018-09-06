@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, Title, Content } from '../styled-components';
+import { Container, Title, Content, Main } from '../styled-components';
 
 const About = () => {
   return (
     <Container className="container">
-      <main>
+      <Main className="main">
         <Title className="about" fontSize="2.5rem">
           About
         </Title>
@@ -15,7 +15,7 @@ const About = () => {
           building hybrid mobile apps, web apps using JavaScript and
           continuously learning alongside.
         </Content>
-      </main>
+      </Main>
     </Container>
   );
 };
