@@ -23,8 +23,6 @@ export const Container = styled.div.attrs({})`
   padding: 0.5rem;
   height: 100vh;
   width: 100vw;
-  width: calc(100vw - 15rem);
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,6 +78,5 @@ export const Main = styled.main.attrs({})`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   text-align: justify;
 `;
