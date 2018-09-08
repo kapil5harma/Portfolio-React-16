@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Title, Main, ClickMe } from '../styled-components';
+import { Container, Title, Main } from '../styled-components';
 import SocialLinks from '../SocialLinks/SocialLinks';
 
 const LandingPage = props => {
@@ -13,9 +13,6 @@ const LandingPage = props => {
           Frontend Developer | JavaScript Enthusiast
         </Title>
         <SocialLinks className="social-links" />
-        <ClickMe width="10rem" bottom="1.5rem">
-          Click Me!
-        </ClickMe>
       </Main>
     </Container>
   );
