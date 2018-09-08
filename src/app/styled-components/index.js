@@ -86,12 +86,18 @@ export const Main = styled.main.attrs({
 `;
 
 export const ClickMe = styled.span.attrs({
-  width: props => props.width,
-  bottom: props => props.bottom
+  // width: props => props.width,
+  // bottom: props => props.bottom,
+  background: props => props.background || '#fdfffc'
 })`
-  width: ${props => props.width};
+  width: 100%;
   position: fixed;
   text-align: center;
-  bottom: ${props => props.bottom};
-  left: ${props => `calc(50% - ${props.width}/2)`};
+  bottom: 0;
+  background: ${props => props.background};
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 `;
