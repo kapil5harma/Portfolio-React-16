@@ -90,7 +90,8 @@ export const ClickMe = styled.span.attrs({
   bottom: props => props.bottom
 })`
   width: ${props => props.width};
-  position: absolute;
+  position: fixed;
+  text-align: center;
   bottom: ${props => props.bottom};
   left: ${props => `calc(50% - ${props.width}/2)`};
 `;
