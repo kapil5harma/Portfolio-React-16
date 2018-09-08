@@ -12,8 +12,9 @@ class App extends Component {
         <NavBar className="nav-bar" />
         <LandingPage className="landing-page" />
         <About className="about" />
-        <ClickMe width="10rem" bottom="1.5rem">
+        <ClickMe>
           Click Me!
+          <i class="fas fa-chevron-down" />
         </ClickMe>
       </div>
     );
