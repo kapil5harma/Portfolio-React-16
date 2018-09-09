@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Nav = styled.div.attrs({})`
+export const Nav = styled.div.attrs({
+  background: props => props.background || '#fdfffc'
+})`
   position: fixed;
   top: 0;
   left: 0;
@@ -9,6 +11,7 @@ export const Nav = styled.div.attrs({})`
   display: flex;
   align-items: center;
   font-size: 1.2rem;
+  background: ${props => props.background};
 `;
 
 export const Menu = styled.div.attrs({})`
