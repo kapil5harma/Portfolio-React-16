@@ -4,6 +4,7 @@ import LandingPage from './app/LandingPage/LandingPage';
 import NavBar from './app/NavBar/NavBar';
 import About from './app/About/About';
 import { ClickMe } from './app/styled-components';
+import Portfolio from './app/Portfolio/Portfolio';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         <NavBar className="nav-bar" />
         <LandingPage className="landing-page" />
         <About className="about" />
+        <Portfolio className="portfolio" />
         <ClickMe>
           Click Me!
           <i class="fas fa-chevron-down" />
