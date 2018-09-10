@@ -6,6 +6,10 @@ import About from './app/About/About';
 import { ClickMe } from './app/styled-components';
 import Portfolio from './app/Portfolio/Portfolio';
 
+const scrollPage = () => {
+  window.scrollTo(0, 0);
+};
+
 class App extends Component {
   render() {
     return (
@@ -14,7 +18,7 @@ class App extends Component {
         <LandingPage className="landing-page" />
         <About className="about" />
         <Portfolio className="portfolio" />
-        <ClickMe>
+        <ClickMe onClick={scrollPage}>
           Click Me!
           <i class="fas fa-chevron-down" />
         </ClickMe>
