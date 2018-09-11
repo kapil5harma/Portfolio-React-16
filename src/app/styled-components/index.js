@@ -103,4 +103,5 @@ export const ClickMe = styled.span.attrs({
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `;

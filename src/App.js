@@ -20,7 +20,7 @@ class App extends Component {
         <Portfolio className="portfolio" />
         <ClickMe onClick={scrollPage}>
           Click Me!
-          <i class="fas fa-chevron-down" />
+          <i className="fas fa-chevron-down" />
         </ClickMe>
       </div>
     );
