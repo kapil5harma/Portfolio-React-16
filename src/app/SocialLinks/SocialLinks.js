@@ -3,7 +3,7 @@ import { Links } from '../styled-components';
 
 const SocialLinks = props => {
   return (
-    <Links className="links">
+    <Links className="links social-links">
       <a
         target="_blank"
         rel="noopener noreferrer"
