@@ -8,6 +8,8 @@ body {
   color: #2ec4b6;
 }
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito:400,700|Poppins:400,700');
+
 a {
   color: #2ec4b6;
 }
@@ -40,4 +42,14 @@ a {
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Nunito:400,700|Poppins:400,700');
+.slide-in {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
+
+.slide-out {
+  transform: translateY(100%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
