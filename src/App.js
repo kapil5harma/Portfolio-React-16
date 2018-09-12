@@ -39,6 +39,7 @@ class App extends Component {
         </ClickMe>
         <ToTop className="to-top">
           <i className="fas fa-angle-double-up" />
+          To Top
         </ToTop>
       </div>
     );

@@ -89,12 +89,11 @@ export const Main = styled.main.attrs({
 `;
 
 export const ClickMe = styled.span.attrs({
-  // width: props => props.width,
-  // bottom: props => props.bottom,
   background: props => props.background || '#fdfffc'
 })`
-  width: 100%;
+  width: calc(100vw - 15rem);
   position: fixed;
+  left: calc(50% - ((100vw - 15rem)) / 2);
   text-align: center;
   bottom: 0;
   background: ${props => props.background};
@@ -107,19 +106,23 @@ export const ClickMe = styled.span.attrs({
 `;
 
 export const ToTop = styled.span.attrs({
-  // width: props => props.width,
-  // bottom: props => props.bottom,
   background: props => props.background || '#fdfffc'
 })`
-  width: 100%;
+  width: 90px;
+  height: 90px;
   position: fixed;
+  right: 0;
+  bottom: 2rem;
   text-align: center;
   bottom: 0;
   background: ${props => props.background};
-  padding: 0.5rem 0;
+  padding: 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  i {
+    font-size: 2rem;
+  }
 `;
