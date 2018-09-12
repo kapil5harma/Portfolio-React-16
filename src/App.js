@@ -3,7 +3,7 @@ import './App.css';
 import LandingPage from './app/LandingPage/LandingPage';
 import NavBar from './app/NavBar/NavBar';
 import About from './app/About/About';
-import { ClickMe } from './app/styled-components';
+import { ClickMe, ToTop } from './app/styled-components';
 import Portfolio from './app/Portfolio/Portfolio';
 
 const scrollPage = () => {
@@ -37,9 +37,9 @@ class App extends Component {
           Click Me!
           <i className="fas fa-chevron-down" />
         </ClickMe>
-        <div className="to-top">
+        <ToTop className="to-top">
           <i className="fas fa-angle-double-up" />
-        </div>
+        </ToTop>
       </div>
     );
   }

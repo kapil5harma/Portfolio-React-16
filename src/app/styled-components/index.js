@@ -105,3 +105,21 @@ export const ClickMe = styled.span.attrs({
   align-items: center;
   cursor: pointer;
 `;
+
+export const ToTop = styled.span.attrs({
+  // width: props => props.width,
+  // bottom: props => props.bottom,
+  background: props => props.background || '#fdfffc'
+})`
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  background: ${props => props.background};
+  padding: 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+`;
