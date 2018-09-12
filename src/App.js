@@ -37,6 +37,9 @@ class App extends Component {
           Click Me!
           <i className="fas fa-chevron-down" />
         </ClickMe>
+        <div className="to-top">
+          <i className="fas fa-angle-double-up" />
+        </div>
       </div>
     );
   }
